@@ -167,15 +167,23 @@ ul {
   float: left;
   width: 33%;
   word-wrap: break-word;
+  margin: 0;
 }
 
 
-/*.column-center{ display: inline-block; width: 33%; word-wrap: break-word; }*/
+.column-center {
+  display: inline-block;
+  float: center;
+  width: 33%;
+  word-wrap: break-word;
+  margin: 0;
+}
 
 .column-right {
   float: right;
   width: 33%;
   word-wrap: break-word;
+  margin: 0;
 }
 
 @media screen and (max-width: 800px) {
