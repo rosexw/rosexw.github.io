@@ -2,6 +2,7 @@
 
 
 body {
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +24,6 @@ body {
 /* Class Styles */
 
 .name {
-  font-size: 4.5em;
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -38,12 +38,17 @@ body {
 .icons {
   display: block;
   box-sizing: border-box;
+  padding: 0;
 }
 
 .icon {
   display: inline;
   list-style: none;
   margin-left: 20px;
+}
+
+.icon:first-child {
+  margin: 0;
 }
 
 .icon i {
@@ -55,4 +60,22 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+@media (max-width: 600px){
+  .name {
+    font-size: 3.5em;
+  }
+  .position {
+    font-weight: 400;
+  }
+  .icon {
+    margin-left: 10px;
+  }
+  .icon i {
+    font-size: 2em;
+  }
+  #footer {
+    font-size: 13px;
+  }
 }
