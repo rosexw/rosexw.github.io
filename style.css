@@ -1,227 +1,58 @@
-/* Layout */
+/* Global Styles */
+
 
 body {
-  font: normal 12px/1.6em Arial, Helvetica, sans-serif;
-  color: #2a3845;
-  margin: 0;
-  padding: 0;
-  background: #FFFFFF;
-  font-size: 12px;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-}
-
-#wrapper {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 800px;
-  border-left: 1px solid #f0e9eb;
-  border-right: 1px solid #f0e9eb;
-}
-
-#header {
-  margin: 0 1px;
-}
-
-#bg {
-  height: 36px;
-}
-
-#main-content {
-  margin: 0 auto;
   display: flex;
-}
-
-#main-image {
-  text-align: center;
-}
-
-#main-image img {
-  border-radius: 5%;
-}
-
-#left-column {
-  width: calc(100% - 270px);
-  padding: 0 30px 30px;
-  box-sizing: border-box;
-}
-
-#right-column {
-  width: 270px;
-}
-
-@media screen and (max-width: 800px) {
-  #left-column {
-    width: 100%;
-  }
-  #right-column {
-    width: 100%;
-  }
-  #main-content {
-    flex-direction: column;
-  }
-}
-
-.sidebar {
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: url(images/boats.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   width: 100%;
-  margin: 0 auto;
-  padding: 10px 25px;
+  color: white;
+}
+
+.text-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Class Styles */
+
+.name {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #FFF;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  vertical-align: middle;
+}
+
+.icons {
+  display: block;
   box-sizing: border-box;
-  background: url('') no-repeat top;
+}
+
+.icon {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.icon i {
+  color: #FFF;
 }
 
 #footer {
-  background: #f7f7f7;
-  border-top: 1px solid #f0e9eb;
-  padding: 10px 15px;
-  clear: both;
-}
-
-
-/* Global Styling */
-
-a:visited, a:link {
-  color: #a43b55;
-  text-decoration: underline;
-  background: none;
-}
-
-a:hover {
-  color: #a43b55;
-  text-decoration: none;
-  background: none;
-}
-
-h1 {
-  color: #7a2e40;
-  margin: 0 0 10px;
-  padding-bottom: 10px;
-  font: normal 30px Georgia, serif;
-  border-bottom: 1px solid #efece7;
-}
-
-h2 {
-  color: #7a2e40;
-  margin: 20px 0 10px;
-  padding-bottom: 10px;
-  font: normal 17px Georgia, serif;
-  border-bottom: 1px solid #efece7;
-}
-
-h3 {
-  color: #7a2e40;
-  margin: 10px 0;
-  padding-bottom: 10px;
-  font: bold 14px Arial, Helvetica, sans-serif;
-  border-bottom: 1px solid #efece7;
-}
-
-ul {
-  padding: 0;
-  margin: 0 0 0 17px;
-  list-style: square;
-}
-
-.contact-link ul {
-  list-style: none;
-  line-height: 30px;
-}
-
-.box {
-  background: #f7f7f7;
-  border: 1px solid #f0e9eb;
-  padding: 15px;
-}
-
-#nav {
-  background: #06a;
-  padding: 10px 20px;
   text-align: center;
-  color: #f6dde3;
-}
-
-#nav a {
-  margin: 0 10px;
-}
-
-#nav a:visited, #nav a:link {
-  text-decoration: none;
-  color: #f6dde3;
-}
-
-#nav a:hover {
-  text-decoration: underline;
-  color: #f6dde3;
-}
-
-#logo {
-  margin-bottom: 20px;
-  font: normal 18px Georgia, serif;
-  color: #fa7393;
-}
-
-.column-left {
-  float: left;
-  width: 33%;
-  word-wrap: break-word;
-  margin: 0;
-}
-
-
-.column-center {
-  display: inline-block;
-  float: center;
-  width: 33%;
-  word-wrap: break-word;
-  margin: 0;
-}
-
-.column-right {
-  float: right;
-  width: 33%;
-  word-wrap: break-word;
-  margin: 0;
-}
-
-@media screen and (max-width: 800px) {
-  .column-left {
-    float: none;
-    width: 100%;
-  }
-  /*.column-center{ display: block; width: 100%; }*/
-  .column-right {
-    float: none;
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.float-image {
-  width: 70px;
-  height: 80px;
-  margin: 0 10px 10px 0;
-}
-
-.description {
-  display: flex;
-}
-
-.education .school {
-  margin-bottom: 10px;
-}
-
-.experience .job {
-  margin-bottom: 10px;
-}
-
-.contact-icon {
-  margin-right: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
