@@ -1,0 +1,70 @@
+// NAVBAR
+/* Style the items inside the navigation bar */
+
+@import 'Partials/Variables';
+
+#navbar {
+  background-color: $colorLightBlue;
+  text-decoration: none;
+  margin-right: 50px;
+  min-width: $sidebarButtonWidth + $sidebarWidth;
+  position: fixed;
+  z-index: 2;
+  height: 100vh;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+
+
+  .logo {
+      width: 180px;
+  }
+
+  .toggle {
+    text-decoration: none;
+    font-size: 2em;
+    // color: rgba(0, 0, 0, 0.61);
+    color: rgba(255, 0, 0, 1);
+    -webkit-transition: all 0.15s ease-out 0;
+    -moz-transition: all 0.15s ease-out 0;
+    transition: all 0.45s ease-out 0;
+    margin: 0;
+    padding-top: 40vh;
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+  }
+
+  &:active .toggle, &:hover .toggle, &:focus .toggle {
+    .toggle {
+      visibility: hidden;
+    }
+  }
+
+
+  ul {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  li {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Change the color to yellow of links on hover */
+    a:hover, a:active, a:focus {
+      color: yellow;
+    }
+  }
+}

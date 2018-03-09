@@ -1,0 +1,33 @@
+/*For everything:*/
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  display: flex;
+}
+
+/*sass --watch Styles/main.scss:Styles/main.css*/
+@import 'Nav';
+@import 'Results';
+@import 'Partials/Variables';
+
+
+#navbar:active, #navbar:hover, #navbar:focus {
+    transform: translateX(0);
+    &~ .container {
+      transform: translateX(0);
+    }
+}
+
+#navbar {
+  transition: all 0.2s;
+  transform: translateX(-$sidebarWidth);
+}
+
+.container {
+  transition: all 0.2s;
+  transform: translateX(-$sidebarWidth);
+}

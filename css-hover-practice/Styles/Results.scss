@@ -1,0 +1,42 @@
+
+//RESULTS on right side, images scroll
+
+.container {
+  box-sizing: border-box;
+}
+
+#results {
+  top: 30vh;
+  position: relative;
+  left: $resultsGapWidth;
+
+  white-space: nowrap;
+
+
+  .img {
+    display: inline-block;
+    position: relative;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+
+
+    width: 300px;
+    height: 150px;
+  }
+
+  .img:hover, .img:active, .img:focus {
+    // transform: scale(1.5);
+    width: 500px;
+    height: 250px;
+
+    /*Reflection*/
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+
+    /*Glow*/
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  }
+}
