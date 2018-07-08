@@ -11,7 +11,7 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Bootstrap-->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  
   <!--Favicon-->
   <link rel="icon" href="images/favicon.ico">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
@@ -37,18 +37,58 @@
         </ul>
       </div>
     </div>
+    <img class="down-arrow" src="images/double_down_arrows.svg" alt="Arrow to scroll down" height="42" width="42">
   </header>
-  <footer id="footer">
-    Copyright &copy;
-    <span id="year">
-      <script>
-         $(function(){
-           var theYear = (new Date()).getFullYear();
-           $("#year").html(theYear);
-         });
-      </script>
-    </span> Rose Wan. All rights reserved.<br/>
+  <!-- <div class="see-more">
+      <img src="images/double_down_arrows.svg" class="down-arrow" alt="Arrow to scroll down">
+  </div> -->
+  <div class="projects">
+    <h2>Projects</h2>
+    <div class="screenshot">
+        <a href="https://rosexw.github.io/cohort3-react-pokemon/" target="_blank">
+          <img src="images/Fetch_Pikachu.png" alt="React/Redux Pokemon Fetching App">
+          <div class="title">
+            Pokemon Fetch App
+          </div>
+        </a>
+    </div>
+    <div class="screenshot">
+      <a href="https://rosexw.github.io/BTC-Converter/" target="_blank">
+        <img src="images/BTC_Converter.png" alt="BTC Conversion App">
+        <div class="title">
+          Bitcoin Conversion App
+        </div>
+      </a>
+    </div>
+    <div class="screenshot">
+      <a href="https://github.com/rosexw/farmers-market" target="_blank">
+        <img src="images/MarketsPlus.png" alt="Farmer's Markets App">
+        <div class="title">
+            Markets+
+        </div>
+      </a>
+    </div>
+    <div class="screenshot">
+      <a href="https://rosexw.github.io/css-hover-practice/index.html" target="_blank">
+        <img src="images/CSS_Hover.png" alt="Playing with CSS Hover techniques">
+        <div class="title">
+            CSS Hover Project
+        </div>
+      </a>
+      </div>
+  </div>
+  <footer>
+    <p>Copyright &copy;
+        <span id="year">
+          <script>
+              $(function(){
+                var theYear = (new Date()).getFullYear();
+                $("#year").html(theYear);
+              });
+          </script>
+        </span> Rose Wan. All rights reserved.</p><br/>
   </footer>
+
 
   </body>
 
