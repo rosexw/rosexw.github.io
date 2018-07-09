@@ -6,5 +6,5 @@ Desktop version of portfolio:
 
 Mobile version of portfolio:
 
-<img src="https://github.com/rosexw/rosexw.github.io/blob/master/images/July8mobile1.jpeg" width="50%" height="50%">
-<img src="https://github.com/rosexw/rosexw.github.io/blob/master/images/July8mobile2.jpeg" width="50%" height="50%">
+<img src="https://github.com/rosexw/rosexw.github.io/blob/master/images/July8mobile1.jpeg" width="30%" height="30%">
+<img src="https://github.com/rosexw/rosexw.github.io/blob/master/images/July8mobile2.jpeg" width="30%" height="30%">
