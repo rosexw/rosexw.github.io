@@ -5,5 +5,5 @@ Desktop version of portfolio:
 !["Desktop version 2"](https://github.com/rosexw/rosexw.github.io/blob/master/images/July82.png)
 
 Mobile version of portfolio:
-!["Mobile version"](https://github.com/rosexw/rosexw.github.io/blob/master/images/July8mobile1.jpeg){:height="400px"}
-!["Mobile version 2"](https://github.com/rosexw/rosexw.github.io/blob/master/images/July8mobile2.jpeg){:height="400px"}
+!["Mobile version"](https://github.com/rosexw/rosexw.github.io/blob/master/images/July8mobile1.jpeg | width=400)
+!["Mobile version 2"](https://github.com/rosexw/rosexw.github.io/blob/master/images/July8mobile2.jpeg | width=400)
