@@ -1,7 +1,9 @@
 My personal portfolio can be found at https://rosexw.github.io/
 
 Desktop version of portfolio:
-!["Desktop version"](https://github.com/rosexw/rosexw.github.io/blob/master/images/Oct%2028%2C%202017%20desktop.png)
+!["Desktop version"](https://github.com/rosexw/rosexw.github.io/blob/master/images/July81.png)
+(https://github.com/rosexw/rosexw.github.io/blob/master/images/July82.png)
 
 Mobile version of portfolio:
-!["Mobile version"](https://github.com/rosexw/rosexw.github.io/blob/master/images/Oct%2028%20mobile.PNG)
+!["Mobile version"](https://github.com/rosexw/rosexw.github.io/blob/master/images/July8mobile1.png)
+(https://github.com/rosexw/rosexw.github.io/blob/master/images/July8mobile2.png)
