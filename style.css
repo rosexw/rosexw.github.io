@@ -26,7 +26,9 @@ body {
 
 footer {
   text-align: center;
-  /* color: white; */
+  color: white;
+  background-color: #38576e;
+  width: 100%;
 }
 
 .text-vertical-center {
@@ -126,6 +128,7 @@ h2 {
 
 .projects {
   text-align: center;
+  font-size: 40px;
   max-width: 900px;
 }
 
