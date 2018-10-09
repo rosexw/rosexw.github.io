@@ -126,10 +126,18 @@ h2 {
   text-align: center; 
 }
 
-.projects {
+div {
   text-align: center;
   font-size: 40px;
   max-width: 900px;
+}
+
+li {
+  text-align: left;
+}
+
+.about-list {
+  align-items: left;
 }
 
 .down-arrow {
